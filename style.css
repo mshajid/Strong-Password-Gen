@@ -11,7 +11,13 @@ body {
     align-items: center;
     min-height: 100vh;
     background: white;
-}
+    background-image: url(/assets/wave.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+    
+
 
 .inputBox {
     position: relative;
@@ -59,7 +65,7 @@ body {
 }
 
 .inputBox #btn:active {
-    background-color: #ff9f1c;
+    background-color: #0099ff;
 
 }
 
@@ -96,7 +102,4 @@ body {
 }
 
 
-.bgforme {
-    background-image: url();
-}
 
