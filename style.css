@@ -46,4 +46,19 @@ body {
     letter-spacing: 0px;
 }
 
+.inputBox #btn {
+    position: relative;
+    cursor: pointer;
+    color: #f8f8f8;
+    background: #333333;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.inputBox #btn:active {
+    background-color: #9c27b0;
+        
+}
 
