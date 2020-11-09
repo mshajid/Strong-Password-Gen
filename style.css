@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f8f8f8;
+    background: white;
 }
 
 .inputBox {
@@ -19,7 +19,7 @@ body {
 }
 
 .inputBox h2 {
-    font-size: 28px;
+    font-size: 30px;
     color: #333333;
 }
 
@@ -59,7 +59,44 @@ body {
 }
 
 .inputBox #btn:active {
-    background-color: #9c27b0;
+    background-color: #ff9f1c;
 
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.50;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 30px;
+    
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content-header h2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.content-text {
+    display: flex;
+    text-align: center;
+    text-rendering: geometricPrecision;
+}
+
+
+.bgforme {
+    background-image: url();
 }
 
